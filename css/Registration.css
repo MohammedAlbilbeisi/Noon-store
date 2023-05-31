@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+body {
+    font-family: 'Cairo', sans-serif !important;
+}
+
+.main-section {
+    margin-top: 40px;
+}
+
+.main-section .logo {
+    margin-bottom: 30px;
+}
+
+.form-group {
+    direction: rtl;
+}
+
+
+/*   .main-section .section{
+        direction: rtl;
+            }*/
+
+form .form-group {
+    margin: 16px 0px;
+}
+
+#show_hide_password {
+    position: relative;
+}
+
+.input-group-addon {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.main-section .form-group {
+    margin-bottom: 5px !important;
+}
+
+.main-section .section h1 {
+    direction: rtl !important;
+    text-align: right !important;
+    margin-bottom: 30px !important;
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 1100px) {
+    .selected-flag {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .selected-flag {
+        margin-top: 35px;
+    }
+}
+
+.form-check .form-check-input {
+    text-align: right !important;
+    direction: rtl;
+    float: right;
+    background-color: #F3EB39 !important;
+    border: #F3EB39 !important;
+}
+
+.form-check .form-check-label {
+    text-align: right !important;
+    direction: rtl;
+    float: right;
+    margin-right: 20px;
+}
+
+.fa-eye-slash {
+    color: #F3EB39 !important;
+}
+
+#tel input {
+    width: 545px;
+}
+
+button {
+    width: 100%;
+    background-color: #F3EB39 !important;
+    color: black;
+    padding: 8px 0px;
+    border: none;
+}
+
+button:hover {
+    background-color: #f5ea16 !important;
+}
