@@ -211,10 +211,22 @@ color: #000 !important;
 }
 
 @media (max-width: 767px) {
+    .Add-your-review   {
+        text-align: center !important;
+             margin: 0px auto;
+         }
+     
+    .Product-Details .small-pictures img {
+        margin-left: 0px !important;
+        width: 120px;
+        height: auto;
+   }
 .Page-navigations h6 {
 text-align: center;
 }
-
+.Reviews .star-rating {
+    margin-top: 0px;
+}
 .Page-navigations .number {
 margin: 10px auto;
 margin-bottom: 0px;
@@ -269,8 +281,44 @@ margin: 0px auto !important;
 }
 
 @media (max-width: 575px) {
+    .Add-your-review   {
+   text-align: center !important;
+        margin: 0px auto;
+    }
 
 
+         .Reviews .star-rating {
+            margin-top: 50px;
+            width: 50%;
+            margin: auto;
+        }
+ 
+    
+    .Add-your-review button {
+        width: 159px;
+        height: 62px;
+     }
+    .Add-cart button {
+        width: 160px !important;
+        height: 55px !important;
+        margin-bottom: 10px;
+        
+    }
+    .Reviews .star-rating {
+        /* margin-top: 50px; */
+        width: 70%;
+        margin: auto;
+        margin-top: 10px !important;
+
+    }
+    .Reviews .star-rating i {
+        font-size: 20px !important;}
+
+    .Product-Details .small-pictures img {
+        margin-left: 0px !important;
+        width: 87px;
+        height: auto;
+   }
 .categories .product   {
 margin: auto;
 width: 70%;
@@ -626,21 +674,251 @@ font-weight: bold;
 }
 
 .Product-Details h2{
-    text-align: right;
-    font-weight: bold;
+text-align: right;
+font-weight: bold;
 }
- 
+
 
 .Product-Details .rating{
+text-align: right;
+}
+
+.Product-Details .rating{
+
+border: none;
+margin-top: 5px;
+}
+.Product-Details .price img{
+width: 20px;
+height: auto;
+margin-top: -6px;
+margin-left: 10px;
+}
+
+.Product-Details .price  {
+display: flex;
+text-align: right;
+float: right;
+}
+
+.Product-Details .percentage  {
+margin-left: 5px;   
+font-weight: bold;
+color: #000 !important;
+
+}
+
+.Product-Details .Approved-price  {
+color: #000 ;
+font-weight: bold;
+font-size: 22px;
+margin-right: 22px;
+}
+
+.div-percentage{
+height: 32px;
+background: rgba(243, 235, 57, 0.2);
+border-radius: 8px;
+padding: 3px;
+padding-right: 10px;
+padding-right: 10px;
+padding-left: 0px;
+margin-left: 17px;
+
+}
+
+
+.Product-Description{
+text-align: right;
+}
+.Product-Description h4{
+font-weight: bold;
+
+}
+
+.Product-Description p{
+color: rgba(0, 0, 0, 0.6);
+}
+
+.Product-color {
+text-align: right;
+display: block;
+padding-top: 10px;
+
+}
+.Product-color  h4 ,.Quantity h4{
+text-align: right;
+font-size: 18px;
+font-weight: bold;
+
+
+}
+
+.Product-color .colors{
+display: flex;
+float: right;
+
+}
+.Product-color .colors div{
+margin-right: 5px;
+
+}
+
+.Product-color div{ 
+width: 68px;
+height: 28px;
+border-radius: 50%;
+margin-left: 2px;
+
+}
+.Product-color .Gray-color{ 
+
+background: #263238;
+
+}
+.Product-color .Residential-color { 
+background: #D9D9D9;
+}
+
+
+.Quantity {
+text-align: right;
+margin-bottom: 20px;
+}
+
+
+.Add-cart{
+text-align: right;
+}
+.Add-cart button{
+width: 188px;
+height: 55px;
+font-weight: bold;
+
+
+background: #F3EB39;
+border-radius: 16px;
+border: none;
+margin-top: 10px;
+}
+
+.Add-cart button:hover{
+
+
+
+background: #F3EB39;
+opacity:.9;
+
+}
+
+.Add-cart button img{
+margin-right: 5px;
+}
+
+.Add-cart .wish-icon{
+position: static !important;
+margin-right: 30px;
+color: #F3EB39;
+font-size: 30px;
+}
+
+.Product-Details .small-pictures  {
+margin-top: 10px;	
+}
+
+.Product-Details .small-pictures  img {
+margin-left: 6px;           
+}
+
+.Product-Details .small-pictures  img:hover {
+border: 1px solid  #F3EB39;
+border-radius: 12px;
+}
+
+.Reviews{
+     direction: rtl;
     text-align: right;
- }
+    margin-top: 30px;
+    color: #000 !important;
 
- .Product-Details .rating{
+  
 
+ 
+}
+.Reviews .container-Reviews{
+     box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    padding: 25px 30px 25px 0px ;
+    margin-top: 20px;
+}
+
+.Reviews  .rating {
      border: none;
-    margin-top: 5px;
+     direction: ltr;
  }
- .Product-Details .price img{
-    width: 30px;
-    height: auto;
+.Reviews .Review .text  .name{
+
+    color: #000000;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.Reviews .Review .text  .date{
+
+    color: rgba(0, 0, 0, 0.4);
+  }
+  .Reviews .Review p{
+
+ margin-top: 5px;  }
+ 
+ 
+.Reviews .Review  {
+    display: flex;
+   }
+.Reviews .Review  img{
+    background-color: #0ef106 !important;
+    width:88px;
+height:88px;
+margin-left: 10px;
+border-radius: 50%;
+display: inline-block;
+margin-top: 20px;
  }
+.Reviews .star-rating{
+margin-top: 50px;
+ 
+ }
+
+ .Reviews  .star-rating i {
+    font-size: 25px;
+    color: #ffc000;
+    margin: 0px;
+    padding: 0px;
+} 
+    
+.Add-your-review{
+    text-align: right;
+    margin-bottom: 20px;
+
+}
+.Add-your-review button{
+     width: 188px;
+    height: 62px;
+    /* main */
+    font-weight: bold !important;
+    background: #F3EB39;
+    border-radius: 16px;    
+    border: none;
+    margin-bottom: 30px;
+}
+
+.Add-your-review button span{
+  font-size: 20px;
+  font-weight: bold !important;
+}
+
+.Add-your-review button:hover{
+ opacity: .8;
+}
+
+
+ 
