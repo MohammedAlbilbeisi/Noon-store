@@ -211,6 +211,11 @@ color: #000 !important;
 }
 
 @media (max-width: 767px) {
+
+  .Portfolio-movements .Portfolio-movements-section h5 {
+    font-size: 15px !important;
+    text-align: center;
+    margin-bottom: 20px !important;} 
   .Portfolio-movements .Portfolio-movements-section {
     width: 99.8% !important;}
   .My-requests .table-bordered .td  img{
@@ -1631,5 +1636,69 @@ margin-bottom: 20px;
       font-weight:500!important;
      
         }
+
+        .Portfolio-movements .Portfolio-movements-section h5{
+     
+              font-size: 18px ;
+              color: rgba(0, 0, 0, 0.4);
+            }
+
+            .Portfolio-movements form input {
+              font-size: 16px !important;
+
+     width: 100% !important;
+     height: auto !important;
+     padding: 5px 0px ;
+     padding-right: 5px;
+               
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.2);
+border-radius: 8px;
+margin-bottom: 10px;
+color: rgba(0, 0, 0, 0.4);
+
+            }
+
+            
+    
+            .Portfolio-movements form   .iti {
+              width: 100% !important;
+              height: auto !important;
+              margin-bottom: 10px;
+              direction: ltr;
+
+          }
+           .Portfolio-movements form   input[type=submit] { 
+            width: 100% !important;
+            height: auto !important;
+            margin-bottom: 10px;
+            direction: ltr;
+            background: #F3EB39;
+           border-radius: 16px;
+           color: #000;
+            width: 188px !important;
+           margin-top: 20px;
+
+        }
+
+        .Portfolio-movements form  textarea{
+          font-weight: bold;
+          font-size: 16px;
+           width: 100%;
+          text-align: right;
+          direction: rtl;
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          color: rgba(0, 0, 0, 0.4);
+border-radius: 8px;
+padding-right: 0px;
+        }
+
+        .Portfolio-movements form ::placeholder{
+          font-weight: bold;
+          font-size: 16px;
+       
+           color: rgba(0, 0, 0, 0.4) !important;
+         }
+
 
   /*****************   **********************/
