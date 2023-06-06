@@ -210,30 +210,110 @@ border-color: transparent !important;
 color: #000 !important;
 }
 
+
+@media (max-width:1115px) {
+
+
+  .Add-address-map {
+    /*width: 85% !important;*/
+  margin-right: 0px !important;
+  
+  }
+
+
+}
 @media (max-width: 767px) {
-
-  .Portfolio-movements .Portfolio-movements-section h5 {
-    font-size: 15px !important;
-    text-align: center;
-    margin-bottom: 20px !important;} 
-  .Portfolio-movements .Portfolio-movements-section {
-    width: 99.8% !important;}
-  .My-requests .table-bordered .td  img{
-
-    position: absolute; 
-    left:5px !important;
-    top: 5px !important;
+  .Add-address-map .container-70x {
+    /* width: 609px; */
+     width: 100% !important;
+}
+  .responsive-map{
+    overflow: auto;
+  }
+  .Add-address-map ul li button {
+    padding: 10px 0px !important;
+    width: 100px !important; 
    }
-  .My-requests .table{
-    width:100% !important;
-    margin-right:0px !important;
-    font-size: 12px !important;
-   }
-   .My-requests .form-select{
-   width:35% !important;
-    
+  .Add-address-map {
+    float: none !important;
+  
+  }
+  .Add-address-map ul li {
+    padding: 0px !important;
+    width: 25% !important;}
+  .Add-address-map form input{
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .Add-address-map  form {
+    margin: 0px auto !important;
+    /*width:100%;*/
+  
+  }
+  .Add-address-map form input {
+  text-align: center;
+    width: 95% !important;
+    margin-bottom: 10px !important;
    
-   }
+  }
+   
+
+  .Add-address-map form button {
+margin-right: 0px !important;
+width: 95.5% !important;
+
+  }
+  .Add-address-map h6 {
+    text-align: center !important;
+}
+  .Add-address-map {
+    direction: rtl;
+    text-align: right;
+    padding: 0px;
+   /* width: 100% !important;*/}
+  .Add-address-map ul li i {
+    font-size: 33px;
+    margin-top: 13px;
+}
+.Contact-technical-support {
+position: absolute;
+left: 0px;
+bottom: -355px !important;
+}
+
+.Map  {
+margin-top: 10px !important;
+margin-bottom: 322px !important;
+
+}
+.My-Addresses .Address{
+
+width: 100% !important;
+
+}
+
+.Portfolio-movements .Portfolio-movements-section h5 {
+font-size: 15px !important;
+text-align: center;
+margin-bottom: 20px !important;} 
+.Portfolio-movements .Portfolio-movements-section {
+width: 99.8% !important;}
+.My-requests .table-bordered .td  img{
+
+position: absolute; 
+left:5px !important;
+top: 5px !important;
+}
+.My-requests .table{
+width:100% !important;
+margin-right:0px !important;
+font-size: 12px !important;
+}
+.My-requests .form-select{
+width:35% !important;
+
+
+}
 .My-Account .form-group #show_hide_password {
 position: relative;
 width: 100% !important;
@@ -262,9 +342,9 @@ width: 100% !important;
 .My-Account  form    .iti {
 text-align: left !important;
 direction: ltr !important;
-      width: 100% !important;
-  }
-  
+width: 100% !important;
+}
+
 .Shopping-cart .col-md-7 .Delivery-type h6 {
 margin-top: 2px;
 margin-left: 1px;
@@ -1013,7 +1093,7 @@ position: relative;
 margin-bottom: 20px;
 
 }
-.Shopping-cart .product-request .x{
+.Shopping-cart .product-request .x ,.My-Addresses .x{
 position: absolute;
 left: 5px !important;
 top: 0px;
@@ -1025,7 +1105,7 @@ transition: all .5s ease-in-out;
 
 }
 
-.Shopping-cart .product-request .x:hover{
+.Shopping-cart .product-request .x:hover,.My-Addresses .x:hover{
 transform: scale(1.2);
 
 }
@@ -1394,22 +1474,22 @@ position: relative;
 width: 48%;
 }
 
-        
-.My-Account      .form-group #show_hide_password .input-group-addon{
-        position: absolute !important;
-        top: 10px !important;
-        left: 10px !important;
-        direction: ltr;
-              
-          
-        }
 
-        .My-Account      .form-group  input{
-        width: 100% !important;
-                
-            
-          }
-        
+.My-Account      .form-group #show_hide_password .input-group-addon{
+position: absolute !important;
+top: 10px !important;
+left: 10px !important;
+direction: ltr;
+
+
+}
+
+.My-Account      .form-group  input{
+width: 100% !important;
+
+
+}
+
 
 
 /* main */
@@ -1460,15 +1540,15 @@ background-color: transparent !important;
 /********************* My-requests *****************************/
 
 .My-requests{
-   direction: rtl;
-  text-align: right;
-   float: right;
-   width: 100%;
-   margin-bottom: 50px;
- }
- .My-requests .table{
- width: 68%;
- margin-right: 10px;
+direction: rtl;
+text-align: right;
+float: right;
+width: 100%;
+margin-bottom: 50px;
+}
+.My-requests .table{
+width: 68%;
+margin-right: 10px;
 }
 .My-requests .form-select{
 width: 15%;
@@ -1477,228 +1557,503 @@ margin: 10px 10px 20px 0px;
 
 }
 .My-requests span{
-   
-  margin: 10px 13px 20px 0px;
-  
-  }
+
+margin: 10px 13px 20px 0px;
+
+}
 .My-requests .table img{
- display: inline-block;
- margin-right: 60px;
- }
- 
- .My-requests .table-bordered td, .table-bordered th{
-  text-align: center !important;
+display: inline-block;
+margin-right: 60px;
+}
 
-  border: none;
- }
-
- .My-requests .table-bordered .td {
+.My-requests .table-bordered td, .table-bordered th{
 text-align: center !important;
- position: relative; 
+
+border: none;
+}
+
+.My-requests .table-bordered .td {
+text-align: center !important;
+position: relative; 
 }
 .My-requests .table-bordered .td  img{
 
-  position: absolute; 
-  left: 10px;
-  top: 10px;
- }
- .Blue-background{
-  background: rgba(53, 170, 243, 0.1) !important;
-   text-align: center;
-  height: 20px !important;
+position: absolute; 
+left: 10px;
+top: 10px;
+}
+.Blue-background{
+background: rgba(53, 170, 243, 0.1) !important;
+text-align: center;
+height: 20px !important;
 color:#35AAF3 !important;
- width: 113px;
- 
- }
- .green-background{
-   background: rgba(39, 193, 83, 0.1) !important;
-   text-align: center;
+width: 113px;
+
+}
+.green-background{
+background: rgba(39, 193, 83, 0.1) !important;
+text-align: center;
 color:#27C153 !important;
 
- }
+}
 
- .red-background{
-  background: rgba(232, 0, 84, 0.1) !important;
-  text-align: center;
-   color: #E80054;
+.red-background{
+background: rgba(232, 0, 84, 0.1) !important;
+text-align: center;
+color: #E80054;
 
 }
 .yellow-background{
-  background: rgba(243, 235, 57, 0.1) !important;
-  text-align: center;
- color: #F3EB39;
+background: rgba(243, 235, 57, 0.1) !important;
+text-align: center;
+color: #F3EB39;
 }
- 
 
- .My-requests thead{
-  background: rgba(0, 0, 0, 0.06);
-   border: 1px solid rgba(0, 0, 0, 0.06);
+
+.My-requests thead{
+background: rgba(0, 0, 0, 0.06);
+border: 1px solid rgba(0, 0, 0, 0.06);
 }
- 
+
 
 
 
 .Clear{
-  clear: both !important;
+clear: both !important;
 }
 
 /***************** Portfolio-movements **********************/
 
- 
+
 .Portfolio-movements .Portfolio-movements-section{
 width: 65.8%;
- direction: rtl;
+direction: rtl;
 text-align: right;
 float: right;
 margin-right: 1%;
 /* Note: backdrop-filter has minimal browser support */
 border-radius: 24px;
 margin-bottom: 60px !important;
-   
+
 }
 .Portfolio-movements .Portfolio-movements-section .Account-balance{
-   font-weight: bold;
-  border-radius: 24px;
- font-size: 22px;  
- width: 100%;
- color: #000;
- background: linear-gradient(270deg, rgba(243, 235, 57, 0.1) 0%, rgba(243, 235, 57, 0.299224) 0.01%, rgba(243, 235, 57, 0.326898) 0.02%, rgba(243, 235, 57, 0.5) 0.03%, rgba(243, 235, 57, 0.535281) 33.65%, rgba(243, 235, 57, 0.921586) 99.98%, #F3EB39 99.99%, rgba(243, 235, 57, 0.25) 100%, rgba(243, 235, 57, 0.25) 100%);
- box-shadow: inset 31.4667px -31.4667px 31.4667px rgba(185, 179, 43, 0.2), inset -31.4667px 31.4667px 31.4667px rgba(255, 255, 255, 0.2);
- backdrop-filter: blur(52.5493px);
- /* Note: backdrop-filter has minimal browser support */
- 
- border-radius: 24px;
+font-weight: bold;
+border-radius: 24px;
+font-size: 22px;  
+width: 100%;
+color: #000;
+background: linear-gradient(270deg, rgba(243, 235, 57, 0.1) 0%, rgba(243, 235, 57, 0.299224) 0.01%, rgba(243, 235, 57, 0.326898) 0.02%, rgba(243, 235, 57, 0.5) 0.03%, rgba(243, 235, 57, 0.535281) 33.65%, rgba(243, 235, 57, 0.921586) 99.98%, #F3EB39 99.99%, rgba(243, 235, 57, 0.25) 100%, rgba(243, 235, 57, 0.25) 100%);
+box-shadow: inset 31.4667px -31.4667px 31.4667px rgba(185, 179, 43, 0.2), inset -31.4667px 31.4667px 31.4667px rgba(255, 255, 255, 0.2);
+backdrop-filter: blur(52.5493px);
+/* Note: backdrop-filter has minimal browser support */
 
- padding: 15px 20px;
- margin-top: 30px;
- }
- .Portfolio-movements .Portfolio-movements-section .Account-balance p {
-  margin-top: 10px;
-   }
+border-radius: 24px;
+
+padding: 15px 20px;
+margin-top: 30px;
+}
+.Portfolio-movements .Portfolio-movements-section .Account-balance p {
+margin-top: 10px;
+}
 .Portfolio-movements .Portfolio-movements-section .Account-balance p:first-child{
-  float: right;
-  }
+float: right;
+}
 .Portfolio-movements .Portfolio-movements-section .Account-balance p:nth-child(2){
- float: left;
- 
+float: left;
+
 }
 
 .Portfolio-movements .Portfolio-movements-section .Portfolio-movements-buttons{
-   border-radius: 8px;
-  margin: 30px 0px;
- height: 46px;
- }
+border-radius: 8px;
+margin: 30px 0px;
+height: 46px;
+}
 
- .Portfolio-movements .Portfolio-movements-section .Portfolio-movements-buttons button {
-  height: 46px;
-  border: none !important;
-  font-size: 16px;
-  padding: 0px 15px;
-  border-radius: 8px;
-  font-weight: bold;
- }
+.Portfolio-movements .Portfolio-movements-section .Portfolio-movements-buttons button {
+height: 46px;
+border: none !important;
+font-size: 16px;
+padding: 0px 15px;
+border-radius: 8px;
+font-weight: bold;
+}
 
 .Portfolio-movements .Portfolio-movements-section .Portfolio-movements-buttons button:first-child{
-   background: rgba(243, 235, 57, 0.4);
- 
+background: rgba(243, 235, 57, 0.4);
 
 
-  }
-  .Portfolio-movements .Portfolio-movements-section .Portfolio-movements-buttons button:nth-child(2){
-      background: #E5E5E5;
-   
 
-    }
+}
+.Portfolio-movements .Portfolio-movements-section .Portfolio-movements-buttons button:nth-child(2){
+background: #E5E5E5;
 
 
-    .Portfolio-movements .Portfolio-movements-section .Movement-details {
-      background: #FFFFFF;
- box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.06);
+}
+
+
+.Portfolio-movements .Portfolio-movements-section .Movement-details {
+background: #FFFFFF;
+box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.06);
 border-radius: 16px;
 position: relative;
 
 padding: 30px 25px 15px 25px;
 margin-bottom: 20px;
- 
-    }
+
+}
 
 
-    .Portfolio-movements .Portfolio-movements-section .Movement-details .Movement-date {
-  position: absolute;
-  left: 20;
-  bottom: 10;
-  color: rgba(0, 0, 0, 0.4);
-  
-    }
-    
-    .Portfolio-movements .Portfolio-movements-section .Movement-details    p{
-     
-      font-weight:500!important;
-     
-        }
+.Portfolio-movements .Portfolio-movements-section .Movement-details .Movement-date {
+position: absolute;
+left: 20;
+bottom: 10;
+color: rgba(0, 0, 0, 0.4);
 
-        .Portfolio-movements .Portfolio-movements-section h5{
-     
-              font-size: 18px ;
-              color: rgba(0, 0, 0, 0.4);
-            }
+}
 
-            .Portfolio-movements form input {
-              font-size: 16px !important;
+.Portfolio-movements .Portfolio-movements-section .Movement-details    p{
 
-     width: 100% !important;
-     height: auto !important;
-     padding: 5px 0px ;
-     padding-right: 5px;
-               
+font-weight:500!important;
+
+}
+
+.Portfolio-movements .Portfolio-movements-section h5{
+
+font-size: 18px ;
+color: rgba(0, 0, 0, 0.4);
+}
+
+.Portfolio-movements form input {
+font-size: 16px !important;
+
+width: 100% !important;
+height: auto !important;
+padding: 5px 0px ;
+padding-right: 5px;
+
 background: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.2);
 border-radius: 8px;
 margin-bottom: 10px;
 color: rgba(0, 0, 0, 0.4);
 
-            }
+}
 
-            
-    
-            .Portfolio-movements form   .iti {
-              width: 100% !important;
-              height: auto !important;
-              margin-bottom: 10px;
-              direction: ltr;
 
-          }
-           .Portfolio-movements form   input[type=submit] { 
-            width: 100% !important;
-            height: auto !important;
-            margin-bottom: 10px;
-            direction: ltr;
-            background: #F3EB39;
-           border-radius: 16px;
-           color: #000;
-            width: 188px !important;
-           margin-top: 20px;
 
-        }
+.Portfolio-movements form   .iti {
+width: 100% !important;
+height: auto !important;
+margin-bottom: 10px;
+direction: ltr;
 
-        .Portfolio-movements form  textarea{
-          font-weight: bold;
-          font-size: 16px;
-           width: 100%;
-          text-align: right;
-          direction: rtl;
-          border: 1px solid rgba(0, 0, 0, 0.2);
-          color: rgba(0, 0, 0, 0.4);
+}
+.Portfolio-movements form   input[type=submit] { 
+width: 100% !important;
+height: auto !important;
+margin-bottom: 10px;
+direction: ltr;
+background: #F3EB39;
+border-radius: 16px;
+color: #000;
+width: 188px !important;
+margin-top: 20px;
+
+}
+
+.Portfolio-movements form  textarea{
+font-weight: bold;
+font-size: 16px;
+width: 100%;
+text-align: right;
+direction: rtl;
+border: 1px solid rgba(0, 0, 0, 0.2);
+color: rgba(0, 0, 0, 0.4);
 border-radius: 8px;
 padding-right: 0px;
-        }
+}
 
-        .Portfolio-movements form ::placeholder{
-          font-weight: bold;
-          font-size: 16px;
-       
-           color: rgba(0, 0, 0, 0.4) !important;
-         }
+.Portfolio-movements form ::placeholder{
+font-weight: bold;
+font-size: 16px;
+
+color: rgba(0, 0, 0, 0.4) !important;
+}
 
 
-  /*****************   **********************/
+/***************** My-Addresses  **********************/
+.My-Addresses {
+
+margin: 30px 0px 0px 0px;
+}
+.My-Addresses .Address{
+direction: ltr;
+text-align: right;
+background: #FFFFFF;
+box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.06);
+border-radius: 16px;
+width: 70%;
+float: right;
+padding: 20px 40px;
+position: relative;
+margin-bottom: 20px;
+}
+
+.My-Addresses .Home-Address{
+margin: 15px 0px;
+}
+.My-Addresses .Home-Address .right{
+float: right;
+}
+.My-Addresses .Home-Address .left{
+float: left;
+}
+
+.My-Addresses .bold{
+font-weight: bold !important;
+margin-left: 20px;
+margin-right: 5px;
+
+}
+.My-Addresses .x{
+left: 20px !important;
+top: 10;
+font-size: 20px;
+
+}
+
+.My-Addresses button{
+background: #F3EB39;
+border-radius: 16px;
+font-weight: bold;
+border: none;
+float: right;
+padding: 10px 20px;
+text-align: center;
+margin: 30px 0px 50px 0px ;  
+}
+
+.My-Addresses button:hover{
+background: #F3EB39;
+
+opacity:.8;
+}
+/***************** Map  **********************/
+
+.Map  {
+margin-top: 20px;
+direction: rtl;
+text-align: right;
+margin-right: 20px;
+margin-bottom: 100px;
+}
+
+
+
+
+.chat-delivery {
+
+display: flex;
+
+}
+
+.Contact-technical-support {
+position: absolute;
+left: 100px;
+bottom: -100px;
+direction: rtl;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 16px;
+margin: 50px 0px;
+width: 324px;
+background: #FFFFFF;
+padding:5px;
+}
+.Contact-technical-support .links {
+text-align: center;
+
+}
+.Contact-technical-support .links div {
+margin: 20px 0px;
+}
+.Contact-technical-support .links div span {
+margin-right:5px;
+
+}
+
+.Contact-technical-support .links div span a {
+color: rgba(0, 0, 0, 0.6);
+
+}
+.chat-delivery img{
+
+width: 80px;
+height: 80px;
+display: block;
+margin-top: -45px !important;
+
+}
+
+.chat-delivery div , .chat-delivery img{
+font-size: 16px;
+text-align: right;
+font-weight: bold;
+margin-right: 13px;
+margin-top: 20px;
+}
+
+
+
+.Contact-technical-support  .gray{
+color: rgba(0, 0, 0, 0.2);
+
+}
+
+.Map  h4{
+margin: 20px 0px;
+font-size: 19px;
+font-weight: bold;
+
+}
+
+/**************** Add Address Map *******************/
+
+.Add-address-map{
+direction: rtl;
+text-align: right;
+ padding: 0px;
+ /*float:right ;*/
+margin-right:0%;
+ background: rgba(0, 0, 0, 0.007);
+ margin-bottom: 50px;
+   
+}
+
+
+.Add-address-map .container-70x{
+   width: 609px;
+ }
+ 
+.Add-address-map h6{
+ margin-right:10px !important;
+ margin-bottom: 10px;
+  }
+  
+
+ 
+.Add-address-map .Add-address {
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+}
+.Add-address-map   form input {
+background: #FFFFFF;
+border: 1px solid rgba(0, 0, 0, 0.2);
+ height: 42px;
+margin: 10px 0px;
+display: block;
+width: 99%;
+background: #FFFFFF;
+ border-radius: 8px;
+
+margin-right: 5px;
+padding-right: 10px;
+}
+.Add-address-map ul{
+  width: 100%;
+}
+.Add-address-map  form button {
+background: #F3EB39;
+border-radius: 8px;
+color: #000;
+border: none;
+font-weight: bold;
+text-align: center;
+width:99%;
+padding: 7px 0px;
+cursor: pointer;
+margin-right: 5px;
+}
+
+.Add-address-map  form button:hover{
+  opacity: .8 !important;
+  }
+.Add-address-map  h6 {
+margin: 15px 0px ;   
+font-weight: bold;
+}
+
+.Add-address-map  form button:hover {
+opacity: .9;
+
+}
+
+.Add-address-map ul li   {
+padding: 20px 0px ;
+ width: 30%;
+border: 1px solid #F3EB39;
+margin-left: 3px;
+background: #FFFFFF;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 12px;
+margin-right: 12px;
+
+}
+
+.Add-address-map ul li  i {
+font-size: 33px;
+
+}
+.Add-address-map ul li  button.active i{
+color: #F3EB39;
+
+
+}
+ 
+.Add-address-map ul li   button  {
+  background-color: #FFFFFF !important;
+ 
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.4);
+   
+  
+  }
+.Add-address-map ul li  button.active {
+  background-color: #FFFFFF !important;
+  color: #000 !important;
+  font-weight: bold;
+  
+  
+  }
+  .Add-address-map .nav-link , .Add-address-map .nav-link  {
+    color: rgba(0, 0, 0, 0.4);
+    margin: auto;
+
+}
+  .Add-address-map ul li  button.active:hover {
+    
+    background-color: #FFFFFF !important;
+    color:#000 !important;
+    font-weight: bold;
+    
+    }
+  
+      .Add-address-map .nav-link:focus, .Add-address-map .nav-link:hover {
+         color:#000 !important;
+
+    }
+
+    .Add-address-map .nav-link:focus i, .Add-address-map .nav-link:hover i {
+      color:#F3EB39 !important;
+ 
+ }
+ 
+
+    
+  
+  
+  
+
+
+
+
