@@ -206,7 +206,10 @@ margin-top: 10px;
 font-weight: 600 !important;
 font-size: 15px;
 }
+.sections h2 {
 
+margin: 20px 0px 30px 0px !important;
+}
 .page-link {
 position: relative;
 display: block;
@@ -541,6 +544,12 @@ margin: 0px auto !important;
 }
 
 @media (max-width: 575px) {
+    .Categories .category {
+        text-align: center;
+      
+        width: 33% !important;
+        margin: auto !important;
+    }
 .Department-products  .col-md-12 {
 text-align:center !important;
 
@@ -550,7 +559,7 @@ text-align:center !important;
 width: 80% !important;
 margin:20px auto !important;
 }
- .Department-products h3, .Order-now h3  {
+.Department-products h3, .Order-now h3  {
 font-weight: bold;
 display: inline-block;
 font-size: 18px;
@@ -669,32 +678,37 @@ margin-left:5px !important;
 }
 
 @media (max-width:767px) {
-
-  .Order-now .Required-quantity  .Quantity  input {
-    width:13% !important;
-    text-align: center;
-  
+    .Categories .category {
+        text-align: center;
+      
+        width: 33% !important;
+        margin: auto !important;
     }
+.Order-now .Required-quantity  .Quantity  input {
+width:13% !important;
+text-align: center;
 
-
-
-  .Order-now .Product-options .form-check {
-    
-    margin-bottom: 10px;
 }
-  .Order-now .Product-details-price {
-    text-align: left;
-    direction: ltr;
-    margin-left: 10px;
-    text-align: center;
+
+
+
+.Order-now .Product-options .form-check {
+
+margin-bottom: 10px;
 }
-  .Order-now .Product-details-text {
-    width: 100%;
-    text-align: center;
+.Order-now .Product-details-price {
+text-align: left;
+direction: ltr;
+margin-left: 10px;
+text-align: center;
+}
+.Order-now .Product-details-text {
+width: 100%;
+text-align: center;
 }
 .Order-now {
-  direction: rtl;
-   text-align: center;
+direction: rtl;
+text-align: center;
 }
 
 .departments .nav-item .nav-link {
@@ -710,17 +724,17 @@ margin-left:0px !important;
 }
 
 @media (max-width:542px) {
-  .Order-now h5 {
-    
-    text-align: center;
+.Order-now h5 {
+
+text-align: center;
 }
-  .Order-now .Product-details-text {
-    width: 100% !important;
-    text-align: center !important;
+.Order-now .Product-details-text {
+width: 100% !important;
+text-align: center !important;
 }
 .Order-now .Product-details-price {
-  
-  text-align: center !important;
+
+text-align: center !important;
 }
 .departments .nav-item .nav-link {
 
@@ -2548,10 +2562,11 @@ opacity: .8;
 }
 
 /****************** Department-products *********************/
+
 .Department-products{
 direction: rtl;
 text-align: right;
-margin-bottom: 60px;
+margin-bottom:7px;
 }
 .departments-all-prouducts{
 margin: 10px 0px !important;
@@ -2561,7 +2576,7 @@ font-weight: bold;
 color: rgba(0, 0, 0, 0.6);
 
 }
- 
+
 .Department-products h3 ,.Order-now h3{ 
 font-weight: bold;
 display: inline-block;
@@ -2689,8 +2704,27 @@ padding: 0px !important;
 margin: 0px !important;
 }
 }
+@media  (min-width: 500px) and (max-width: 990px)  {
+    .Categories .category h6 {
+       
+        font-size: 13px;
+    }
+    .Categories .category {
+        text-align: center;
+         width: auto !important;
+    
+    }}
 
 @media  (min-width: 500px) and (max-width: 930px)  {
+    .Categories .category h6 {
+      
+        font-size: 13px;
+    }
+    .Categories .category {
+        text-align: center;
+         width: auto !important;
+    
+    }
 .Department-products  .col-md-12 {
 text-align:center !important;
 
@@ -2726,40 +2760,40 @@ margin-left: 5px;
 .Order-now {
 direction: rtl;
 text-align: right;
- }
- 
+}
+
 .Order-now .Product-background{
-  height:488px;
-   background:url(../images/Mansaf.jpg);
-  background-position: center;
+height:488px;
+background:url(../images/Mansaf.jpg);
+background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 border-radius: 16px;
 
 }
 .Order-now .Product-details  {
-  margin: 10px 0px;
-   }
-   .Order-now .Product-details  .Product-details-text  h3 ,.Order-now .Product-details .Product-details-text  .star-rating{
-    display: inline-block;
-      }
-      .Order-now .Product-details  .Product-details-text  ul{
+margin: 10px 0px;
+}
+.Order-now .Product-details  .Product-details-text  h3 ,.Order-now .Product-details .Product-details-text  .star-rating{
+display: inline-block;
+}
+.Order-now .Product-details  .Product-details-text  ul{
 padding: 0px;
 margin-left: 10px;
-      }
+}
 
-      .Order-now .Product-details  .Product-details-text  ul i{
-  font-size:18px;
-  margin: -1px;
-              }
+.Order-now .Product-details  .Product-details-text  ul i{
+font-size:18px;
+margin: -1px;
+}
 
-              .Order-now .Product-details  .Product-details-text  ul  .fa-star-o{
-                font-size:18px;
-                margin: -4px;
-              }
+.Order-now .Product-details  .Product-details-text  ul  .fa-star-o{
+font-size:18px;
+margin: -4px;
+}
 .Order-now .Product-background img{
- height: auto;
- width: 100%;
+height: auto;
+width: 100%;
 }
 
 .Order-now .Product-details-price{ 
@@ -2769,83 +2803,83 @@ margin-left: 10px;
 
 }
 .Order-now .Product-details-text  {
-  width: 58%;
-  }
+width: 58%;
+}
 .Order-now .Product-details-text p{
-  color: rgba(0, 0, 0, 0.6);
+color: rgba(0, 0, 0, 0.6);
 }
 .Order-now .Product-details-price span{
-  color:#FFAF10;
+color:#FFAF10;
 
 }
 .Order-now .Product-details-price p{
-   color: #000;
-   font-weight: bold;
-   margin-top: 20px;
-   font-size: 22px;
+color: #000;
+font-weight: bold;
+margin-top: 20px;
+font-size: 22px;
 
 }
 .Order-now  .Product-options  {
- 
- direction: ltr;
+
+direction: ltr;
 }
- .Order-now  .Product-options .form-check{
-    padding: 20px 0px;
-  cursor: pointer;
-  text-align: center;
-  direction: ltr;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+.Order-now  .Product-options .form-check{
+padding: 20px 0px;
+cursor: pointer;
+text-align: center;
+direction: ltr;
+border: 1px solid rgba(0, 0, 0, 0.2);
 border-radius: 8px;
 }
 .Order-now  .Product-options .form-check:hover {
-  background: rgba(235, 235, 235, 0.2);
-  cursor: pointer;
+background: rgba(235, 235, 235, 0.2);
+cursor: pointer;
 
 }
 
 .Order-now .Product-options .form-check-input:checked {
-  background-color: #F3EB39 !important;
-  border-color: #F3EB39 !important;
+background-color: #F3EB39 !important;
+border-color: #F3EB39 !important;
 }
 
 .Order-now  .Product-options .form-check label{
-   text-align: center;
- 
+text-align: center;
+
 }
 .Order-now  .Product-options .form-check input{
-    color: #0ef106;
-  display: inline-block;
- }
+color: #0ef106;
+display: inline-block;
+}
 
- .Order-now   h5{
- margin: 10px 0px;
- font-weight: bold;
- font-size: 18px !important;
+.Order-now   h5{
+margin: 10px 0px;
+font-weight: bold;
+font-size: 18px !important;
 }
 
 
 
 .Order-now .comments textarea   {
-  width: 100%;
-  direction: rtl;
-  text-align: right;
-  padding: 10px;
- 
- }
+width: 100%;
+direction: rtl;
+text-align: right;
+padding: 10px;
+
+}
 
 
 
- .Order-now .minus, .Order-now .plus {
-  padding: 0px 8px;
-  background: #f2f2f2;
-  border-radius: 4px;
-  border: 1px solid #ddd;
-  display: inline-block;
-  vertical-align: middle;
-  text-align: center;
-  background: rgba(0, 0, 0, 0.1);
-  border-radius: 50px;
-  font-weight: bold;
+.Order-now .minus, .Order-now .plus {
+padding: 0px 8px;
+background: #f2f2f2;
+border-radius: 4px;
+border: 1px solid #ddd;
+display: inline-block;
+vertical-align: middle;
+text-align: center;
+background: rgba(0, 0, 0, 0.1);
+border-radius: 50px;
+font-weight: bold;
 
 }
 
@@ -2860,58 +2894,381 @@ border: none;
 
 .Order-now .Required-quantity .number{
 direction: ltr;
-  }
+}
 
 .Order-now .Required-quantity .number{
-  direction: ltr;
-  }
-  .Order-now .Required-quantity   .plus{
-    background: #F3EB39;
-    border-radius: 50px;
-  }
- 
+direction: ltr;
+}
+.Order-now .Required-quantity   .plus{
+background: #F3EB39;
+border-radius: 50px;
+}
+
 
 
 .Required-quantity {
-  display: flex;
-  margin-top: 15px;
+display: flex;
+margin-top: 15px;
 }
 
 .Required-quantity  .Quantity{
-   flex:1;
+flex:1;
 
 }
 
 .Required-quantity  .Add-cart{
-  text-align: left;
+text-align: left;
 flex: 2;
 }
- .Western-food .blue{
- color: #1088C0 !important;
+.Western-food .blue{
+color: #1088C0 !important;
 
 }
 .Western-food .Burgundy{
-  color: #7F051A !important;
-  
- }
+color: #7F051A !important;
 
- .Light{
+}
 
- color:#8EBAC5 !important;
+.Light{
 
- }
+color:#8EBAC5 !important;
 
- .grocery-offers{
-  direction: rtl;
-  text-align: right;
- }
- 
- 
+}
+
+.grocery-offers{
+direction: rtl;
+text-align: right;
+}
 
 
 
- 
+
+/**********Grocery-home-screens******************/
+
+
+.Grocery-home-screens{
+margin-bottom:40px;
+}
+.Grocery-home-screens .item-price  strike{
+color: #9e9b9b !important;
+}
+.Grocery-home-screens .grocery-item{
+background: #FFFFFF;
+box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+border-radius: 16px;
+padding: 10px 20px 8px 10px;
+position: relative;
+margin-bottom: 15px;
+text-align: right;
+
+}
+.Grocery-home-screens .grocery-item span ,.Grocery-home-screens .grocery-item p{
+font-weight: bold;
+
+
+}
+.Grocery-home-screens .grocery-item .Residential  {  
+color: rgba(0, 0, 0, 0.4) !important;
+
+
+}
+
+.departments-all-prouducts .Grocery-home-screens .grocery-item  .Product-evaluation {
+color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.Grocery-home-screens .grocery-item .Basket img{
+
+position: absolute;
+left: 15;
+transition: all .9s ease-in-out;
+
+bottom:30;
+}
+
+.Grocery-home-screens .grocery-item .Basket img:hover{
+transform: scale(1.2);
+opacity: .9;
+
+}
+.Grocery-home-screens .heart .wish-icon{
+position: absolute;
+top: 25px;
+
+right:auto !important;
+left:20px !important;
+}
+
+
+.Grocery-home-screens-Details .Product-Details-images img{
+
+height: auto;
+width: 100%;
+}
+
+.Grocery-home-screens-Details .Product-Details-images  {
+border: 1px solid #F0F0F0;
+border-radius: 16px;
+height: 422px !important;
+width: 512px !important;
+
+border-radius: 16px;
+}
 
 
 
- 
+.Grocery-home-screens-Details  p{
+font-size: 15.5px;
+text-align: right;
+
+}
+
+
+
+.Grocery-home-screens-Details .minus,.Grocery-home-screens-Details .plus {
+background: #f2f2f2;
+border: 1px solid #ddd;
+display: inline-block;
+vertical-align: middle;
+text-align: center;
+background: rgba(0, 0, 0, 0.1);
+border-radius: 50%;
+padding: 1.7px 6.8px;
+font-weight: bold;
+margin-top: 8px;
+}
+.Grocery-home-screens-Details .plus  {
+
+background-color: #F3EB39;
+}
+.Grocery-home-screens-Details h2 span {
+font-size: 14px !important;
+color: rgba(0, 0, 0, 0.6) !important;
+font-weight: 200 !important;
+}
+.Grocery-home-screens-Details .Quantity   {
+margin: 0px !important;
+}
+.Grocery-home-screens-Details .Quantity input {
+margin-top: -3px;
+background: rgba(0, 0, 0, 0.1);
+height:31px;
+width: 9%!important;
+text-align: center;
+font-size: 26px;}
+
+/***************** Categories ************************/
+
+.Categories {
+text-align: right;
+direction: rtl;
+margin-bottom: 30px;
+}
+
+.Categories  .category{
+text-align: center;
+width: 160px;
+height: 107px;
+border:.2px solid rgb(0, 0, 0)  ;
+
+font-weight: bold;
+background: linear-gradient(180deg, #565D65 0%, rgba(86, 93, 101, 0) 100%);
+border-radius: 8px;
+transition: all .9s ease-in-out;
+cursor: pointer;
+
+}
+
+.Categories  .category:hover{
+
+transform: scale(1.2);
+opacity: .9;
+}
+.Categories    h2{
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+
+.Categories  .category h6{
+text-align: center;
+
+font-weight: bold;
+margin-top:5px;
+
+
+}
+.Categories  .category img{
+margin-top: 15px;
+
+}
+.Categories  .category h6{
+text-align: center;
+
+font-weight: bold;
+margin-top:5px;
+
+
+}
+
+.Categories  .category.color01{
+
+background: linear-gradient(180deg, #776C44 0%, rgba(119, 108, 68, 0) 100%);
+}
+
+.Categories  .category.color02{
+
+background: linear-gradient(180deg, #7C5F56 0%, rgba(124, 95, 86, 0) 100%);
+}
+
+.Categories  .category.color03{
+
+background: linear-gradient(180deg, #7393C0 0%, rgba(115, 147, 192, 0) 100%);
+}
+
+
+.Categories  .category.color04{
+background: linear-gradient(180deg, #565D65 0%, rgba(86, 93, 101, 0) 100%);
+}
+
+
+.Categories  .category.color05{
+background: linear-gradient(180deg, #A25E53 0%, rgba(162, 94, 83, 0) 100%);
+}
+
+
+.Categories  .category.color06{
+background: linear-gradient(180deg, #3C435E 0%, rgba(60, 67, 94, 0) 100%);
+}
+.Categories  .category.color07{
+background: linear-gradient(180deg, #C3C6C7 0%, rgba(195, 198, 199, 0.178399) 82.16%, rgba(195, 198, 199, 0) 100%);
+}
+.Categories  .category.color08{
+background: linear-gradient(180deg, #FFD73E 0%, rgba(254, 239, 204, 0) 100%);
+
+}
+.Categories  .category.color09{
+background: linear-gradient(180deg, #FF4F64 0%, rgba(255, 79, 100, 0) 100%);
+}
+
+.Categories  .category.color011{
+background: linear-gradient(180deg, #3091AB 0%, rgba(48, 145, 171, 0.285543) 71.45%, rgba(48, 145, 171, 0) 100%);
+}
+
+.Categories  .category.color012{
+background: linear-gradient(180deg, #80A100 0%, rgba(128, 161, 0, 0) 100%);
+}
+
+.Categories  .category.color013{
+
+background: linear-gradient(180deg, rgba(255, 175, 16, 0.5) 0%, rgba(252, 206, 85, 0.077776) 84.44%, rgba(252, 212, 98, 0) 100%);
+border-radius: 8px;
+}
+
+/*******************Noon-offerss****************/
+
+.Noon-offerss {
+margin-bottom: 15px !important;
+
+}
+.Noon-offerss .grocery-item{
+padding: 15px !important;
+}
+
+.Noon-offerss .grocery-item{
+padding: 15px !important;
+position: relative;
+
+}
+
+.Noon-offerss .grocery-item:hover{
+opacity: .9;
+
+}
+
+
+
+
+
+.Noon-offerss .grocery-item img{
+margin-bottom: 5px;
+}
+
+
+.Noon-offerss .grocery-item .heart .wish-icon {
+position: absolute;
+top:30px !important;
+right: auto !important;
+left:27px !important;
+}
+
+.Noon-offerss .grocery-item .Discounts{
+position: absolute;
+width: 99px;
+height: 30px;
+top: 20px;
+margin: 5px 5px 0px 0px;
+right: 20px;
+direction: rtl;
+text-align: center;
+font-size: 15px;
+padding-top: 3px;
+color: #FFFFFF;
+font-weight: bold;
+background: #B7092B;
+border-radius: 25px;
+}
+.Noon-offerss  .Section-title{
+display: flex;
+direction: rtl;
+padding: 0px 20px !important;
+
+}
+
+
+.Noon-offerss  .Section-title h2{
+flex: 1;
+text-align: right;
+font-weight: bold;
+margin-bottom:20px;
+
+
+}
+
+.Noon-offerss  .Section-title h6  {
+color: #000 !important;
+font-weight: bold;
+
+flex: 1;
+}
+
+.Noon-offerss  .Section-title h6 a{
+color: #000 !important;
+
+}
+
+/******************Grocery-home-screens  recently-arrived*******************/
+
+.Grocery-home-screens.recently-arrived .Discounts{
+
+position: absolute;
+top: 20px;
+right: 20px;
+width: 44px;
+background: #27C153;
+border-radius: 25px;
+
+}
+
+
+.categoriess  .col-md-2{
+margin-bottom: 10px;
+
+}
+@media (max-width:767px) {
+    .Categories .category {
+        text-align: center;
+      
+        width: 33% !important;
+        margin: auto !important;
+    }}
