@@ -569,13 +569,29 @@ text-align: center !important;
 margin: 0px auto !important;
 }
 
+.Order-now  .Add-cart  {
+    display: block;
+    margin-top: 60px !important;
+    background-color: #0ef106 !important;
 
+
+}
+
+
+.Quantity .number {
+    margin: 21px 0px !important;
+    border-radius: 8px;
+}
 .Reviews .star-rating {
 margin-top: 50px;
 width: 50%;
 margin: auto;
 }
 
+
+.Grocery-home-screens-Details .Quantity {
+    margin: 20px  0px!important;
+}
 
 .Add-your-review button {
 width: 159px;
@@ -2761,7 +2777,11 @@ margin-left: 5px;
 direction: rtl;
 text-align: right;
 }
-
+.Order-now    span{
+     color: rgba(0, 0, 0, 0.6) !important;
+      margin-right: 20px;
+     font-weight: 600;
+    }
 .Order-now .Product-background{
 height:488px;
 background:url(../images/Mansaf.jpg);
@@ -3010,11 +3030,16 @@ width: 100%;
 border: 1px solid #F0F0F0;
 border-radius: 16px;
 height: 422px !important;
-width: 512px !important;
+width: 455px !important;
+overflow: hidden;
 
-border-radius: 16px;
-}
+ }
 
+.Grocery-home-screens-Details .Product-Details-images  img {
+   width: 100%;
+   height: auto;
+    }
+    
 
 
 .Grocery-home-screens-Details  p{
@@ -3218,6 +3243,26 @@ font-weight: bold;
 background: #B7092B;
 border-radius: 25px;
 }
+.Grocery-home-screens{
+    position: relative;
+}
+.Grocery-home-screens .grocery-item .Discounts{
+
+    position: absolute;
+    width: 99px;
+    height: 30px;
+    top: 20px;
+    margin: 5px 5px 0px 0px;
+    right: 20px;
+    direction: rtl;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 3px;
+    color: #FFFFFF;
+    font-weight: bold;
+    background: #B7092B;
+    border-radius: 25px;
+}
 .Noon-offerss  .Section-title{
 display: flex;
 direction: rtl;
@@ -3266,6 +3311,32 @@ margin-bottom: 10px;
 
 }
 @media (max-width:767px) {
+    .Purchase-delivery .background-image{
+         width: 80%;
+    margin: auto;
+    margin-bottom: 20px;
+
+    }
+    .Purchase-delivery .background-image h1{
+        font-size: 22px !important;
+        text-align: center !important;
+
+    }
+    .Purchase-delivery p{
+         font-size: 16px !important;
+        text-align: center;
+ 
+    }
+  .Purchase-delivery  form input {
+        /* width: 116px !important; */
+         font-size: 14px !important;
+         width: 100% !important;
+    }
+    .Purchase-delivery  form input::placeholder{
+        /* width: 116px !important; */
+         font-size: 14px !important;
+     }
+
 .Categories .category {
 text-align: center;
 
@@ -3406,4 +3477,8 @@ font-weight: bold;
 opacity: .9;
 cursor: pointer;
 
+}
+
+.Grocery-home-screens-Details .Quantity {
+    margin: 23px  0px!important;
 }
