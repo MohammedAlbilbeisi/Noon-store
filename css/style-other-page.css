@@ -544,6 +544,15 @@ margin: 0px auto !important;
 }
 
 @media (max-width: 575px) {
+    .conversation-delivery .date {
+        margin-right: 10px !important;
+     }
+     .conversation-delivery .Chat .Information-conductor .text-delivery {
+        flex: 85%;
+        text-align: right;
+        margin-top: 10px;
+        margin-right: 20px !important;
+    }
 .Categories .category {
 text-align: center;
 
@@ -668,6 +677,20 @@ padding: 44px 0px 40px 0px;
 }
 }
 @media (max-width:1200px) {
+
+
+    .conversation-delivery .offset-md-3 {
+        margin-left:0% !important;
+    }
+
+    .conversation-delivery .col-md-9 {
+         -ms-flex: 0 0 100% !important;
+
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+
+    
 .departments .nav-item {
 width: 18.20%;
 margin-left: 8.9px;
@@ -694,6 +717,13 @@ margin-left:5px !important;
 }
 
 @media (max-width:767px) {
+    .Product-order-details .Product-details .Order-status {
+        margin-top:63px !important;
+     }
+    .Product-order-details .Product-description {
+        padding: 15px 20px 0px 0px;
+        flex: 1 !important;
+     }
 .Categories .category {
 text-align: center;
 
@@ -3311,12 +3341,26 @@ margin-bottom: 10px;
 
 }
 @media (max-width:767px) {
-    .Purchase-delivery .background-image{
-         width: 80%;
-    margin: auto;
-    margin-bottom: 20px;
-
+    .conversation-delivery .chatbox-area {
+         margin-bottom: 20px;
     }
+    .conversation-delivery .Chat p {
+  
+        font-size: 13px !important; 
+    }
+    .conversation-delivery .chatbox-area  #chatform .chatbox-voice, .conversation-delivery .chatbox-area  #chatform .chatbox-x{
+        flex:15% !important;
+        
+    
+      }
+      .conversation-delivery .Chat{
+        padding: 0px !important;
+      }
+    
+      .conversation-delivery .chatbox-area #chatform textarea[name="chatbox"] {
+        flex:75% !important;
+    }
+      
     .Purchase-delivery .background-image h1{
         font-size: 22px !important;
         text-align: center !important;
@@ -3345,6 +3389,19 @@ margin: auto !important;
 }}
 
 
+@media (max-width: 768px){
+.offset-md-4 {
+    margin-left:1%!important;
+}
+
+.col-md-8 {
+    margin-left:0%!important;
+    max-width:100.0%!important;
+    -ms-flex: 0 0 100.0% !important;
+    flex: 0 0 100.0% !important;
+
+}
+}
 /********************Purchase-delivery************************/
 .Purchase-delivery  {
 direction: rtl;
@@ -3482,3 +3539,238 @@ cursor: pointer;
 .Grocery-home-screens-Details .Quantity {
     margin: 23px  0px!important;
 }
+/*************Product order details*****************/
+
+.Product-order-details{
+    direction: rtl;
+text-align: right;
+position: relative;
+}
+
+
+.Product-order-details .Product-details{
+    background: #FFFFFF;
+     box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+ display: flex;
+ margin: 10px 0px;
+ overflow: hidden;
+}
+.Product-order-details .Product-description {
+    padding:15px 20px 0px 0px ;
+    flex:1.5;
+    font-weight: bold;
+
+     }
+.Product-order-details .Product-description h6{
+font-weight: bold;
+}
+
+.Product-order-details .Product-details  .Product-img  {
+flex: 1;
+ border-radius: 0px 16px 16px 0px;
+ border: 1px solid #FFFFFF !important;  
+}
+.Product-order-details .Product-details .prices{
+    position: absolute;
+    top:20px;
+    left:30px;
+    font-weight: bold;
+}
+.Product-order-details .Product-details  .Product-img  img {
+ width: 100%;
+ height: auto;
+     }
+    
+
+
+.Product-order-details .Product-details .Order-status {
+    margin-top: 99px;
+    flex: 1;
+}
+.Product-order-details .Product-details .Order-status .status{
+    background: rgba(53, 170, 243, 0.1);
+    border-radius: 8px;
+    display: inline-block;
+    font-weight: bold;
+    padding: 5px;
+    color:#35AAF3  !important;
+}
+.Product-order-details .Product-details .Order-status .status p span{
+  display: inline-block;
+}
+.Product-order-details .Product-details .Order-status .amounts{
+    font-weight: bold;
+
+    background: rgba(0, 0, 0, 0.1);
+border-radius: 8px;
+padding: 5px;
+
+display: inline-block;
+
+}
+
+/**************** Chat ****************/
+.conversation-delivery .Chat{
+    margin: 20px 10px 60px 0px ;
+    background: rgba(248, 248, 248, 0.5);
+ border: 1px solid #F8F8F8;
+border-radius: 16px;
+direction: rtl;
+text-align: right;
+border-radius: 16px;
+ padding: 50px 50px 20px 50px;
+ position: relative;
+ 
+ }
+.conversation-delivery .Chat h6{
+ font-weight: bold;
+}
+
+
+.conversation-delivery .Chat p{
+    color: rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+.conversation-delivery  .Chat .Information-conductor{
+display: flex;
+}
+
+.conversation-delivery  .Chat .Information-conductor .images-delivery{
+    flex:15%;
+    }
+    
+    .conversation-delivery  .Chat .Information-conductor .text-delivery{
+        flex:85%;
+text-align: right;
+margin-top: 10px;
+         }
+
+.conversation-delivery  .Delivery-message{
+display: flex;
+margin: 20px 0px;
+         }
+
+         .conversation-delivery  .Delivery-message  .images-delivery img{
+ height: 40px;
+ width: 40px;
+ margin-top: 10px;
+
+}
+         .conversation-delivery  .Delivery-message .text-delivery{
+            background: #FFFFFF;
+            padding: 10px;
+border-radius: 16px;
+margin-right: 20px;
+width: 70%;
+ 
+  }
+.conversation-delivery  .Delivery-message .text-delivery p{
+ margin-top: 15px;
+}
+.conversation-delivery  .Delivery-message .text-delivery p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.conversation-delivery  .date{
+margin-right: 60px;
+margin-top: 20px;
+}
+
+
+.conversation-delivery  .customer-message  {
+ 
+display: flex;
+}
+.conversation-delivery  .customer-message .text{
+    background: rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    flex:80%;
+
+border-radius: 16px;
+   }
+  .conversation-delivery  .customer-message .text p{
+ margin-top:15px;
+  }
+
+.conversation-delivery  .customer-message .date { 
+ flex:20%;
+margin-top: 0px;
+text-align: left;
+margin-top: 25px;
+margin-left: 20px;
+}
+ 
+
+
+.conversation-delivery .Chat .phone-call{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    transition: all 0.9s ease-in-out;
+    cursor: pointer;
+ }
+
+
+ .conversation-delivery .Chat .phone-call:hover{
+    transform: scale(1.3);
+ } 
+ .conversation-delivery .chatbox-area   {
+ direction:ltr !important;    
+ }
+ 
+ .conversation-delivery .chatbox-area  #chatform{
+     display: flex;
+      text-align: right;
+       position: relative;
+  }
+  
+  .conversation-delivery  .chatbox-area  #chatform textarea[name="chatbox"] {
+flex: 85%;
+ height:40px;
+background: rgba(245, 245, 245, 0.5);
+border-radius: 55px;
+margin:0px !important;
+  }
+   
+  
+  .conversation-delivery .chatbox-area  #chatform  .send-message {
+ 
+    flex:5%;
+margin-top:20px ;
+     position: absolute;
+     top:-11px !important;
+     left: 20;
+    
+     transition: all 0.9s ease-in-out;
+     cursor: pointer;
+  }
+  .conversation-delivery .chatbox-area  #chatform .chatbox-voice{
+    flex:5%;
+    transition: all 0.9s ease-in-out;
+    cursor: pointer;
+    width: 25px !important;
+    height: 25px !important;
+
+  }
+   
+
+
+  .conversation-delivery .chatbox-area  #chatform .chatbox-x{
+    flex: 5%;
+    transition: all 0.9s ease-in-out;
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+  }
+
+  .conversation-delivery .chatbox-area  #chatform .chatbox-x:hover,
+  .conversation-delivery .chatbox-area  #chatform .chatbox-voice:hover,
+  .conversation-delivery .chatbox-area  #chatform  .send-message:hover{
+    transform: scale(1.2);
+
+  }
