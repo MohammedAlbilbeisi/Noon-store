@@ -493,7 +493,7 @@ margin: 0px auto !important;
 .Product-Rating .Product-Description {
 margin: 30px 0px;
 }
-
+ 
 form textarea {
 width: 100%;
 margin: 0px auto;
@@ -3545,6 +3545,7 @@ cursor: pointer;
     direction: rtl;
 text-align: right;
 position: relative;
+margin-bottom: 40px;
 }
 
 
@@ -3774,3 +3775,36 @@ margin-top:20px ;
     transform: scale(1.2);
 
   }
+  .Product-order-details  .Product-details .Product-Description .star-rating  .list-inline{
+    text-align: right !important;
+    margin: 0px !important;
+    padding: 0px !important;
+   }
+   
+   .Product-order-details  .Product-details .Product-Description .star-rating  .list-inline li{
+    text-align: right !important;
+    font-size: 12px;
+    margin: 0px !important;
+    padding: 0px !important;
+   }
+   .Product-order-details   .Product-text  {
+    margin-right: 10px;
+
+    }
+   .Product-order-details   .Product-text a{
+    color: #F3EB39;
+    display: block;
+font-weight: bold;
+margin-top: 25px; 
+
+    }
+   
+   .Product-order-details   h5{
+    color:#000000;
+font-weight: bold;
+margin-right: 10px;
+    }
+   
+
+
+ 
