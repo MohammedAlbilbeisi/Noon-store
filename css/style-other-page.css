@@ -194,7 +194,7 @@ margin-bottom: 40px;
 }
 
 .Page-navigations {
-padding: 70px 0px 60px 0px;
+padding: 80px 0px 50px 0px;
 }
 
 .Page-navigations .text {
@@ -478,6 +478,7 @@ text-align: center;
 .Reviews .star-rating {
 margin-top: 0px;
 }
+ 
 
 .Page-navigations .number {
 margin: 10px auto;
@@ -1389,10 +1390,10 @@ width: 188px;
 height: 62px;
 /* main */
 font-weight: bold !important;
-background: #F3EB39;
-border-radius: 16px;
+ border-radius: 16px;
 border: none;
-margin-bottom: 30px;
+margin-bottom:40px;
+ background: rgba(243, 235, 57, 0.4);
 }
 
 .Add-your-review button span {
@@ -2612,7 +2613,7 @@ opacity: .8;
 .Department-products{
 direction: rtl;
 text-align: right;
-margin-bottom:7px;
+margin-bottom:100px;
 }
 .departments-all-prouducts{
 margin: 10px 0px !important;
@@ -2665,7 +2666,7 @@ font-size: 14px;
 text-align: right !important;
 margin: 0px;
 padding: 0px;
-
+margin-right: -8px;
 }
 .Department-products .product-content .star-rating .fa-star , .Department-products .product-content .star-rating .fa-star-o:before {
 margin: 0px;
@@ -2809,7 +2810,7 @@ text-align: right;
 }
 .Order-now    span{
      color: rgba(0, 0, 0, 0.6) !important;
-      margin-right: 20px;
+      margin-right:0px;
      font-weight: 600;
     }
 .Order-now .Product-background{
@@ -2914,7 +2915,7 @@ width: 100%;
 direction: rtl;
 text-align: right;
 padding: 10px;
-
+background: rgba(235, 235, 235, 0.2);
 }
 
 
@@ -2934,7 +2935,7 @@ font-weight: bold;
 }
 
 .Order-now .Required-quantity  .Quantity  input {
-width: 5%;
+width:10%;
 text-align: center;
 background: #FAFAFA;
 border-radius: 8px;
@@ -2958,7 +2959,7 @@ border-radius: 50px;
 
 .Required-quantity {
 display: flex;
-margin-top: 15px;
+margin-top:27px;
 }
 
 .Required-quantity  .Quantity{
@@ -3091,6 +3092,7 @@ border-radius: 50%;
 padding: 1.7px 6.8px;
 font-weight: bold;
 margin-top: 8px;
+padding: 0px 6.5px;
 }
 .Grocery-home-screens-Details .plus  {
 
@@ -3402,6 +3404,35 @@ margin: auto !important;
 
 }
 }
+
+
+
+@media (min-width:1200px){
+
+
+
+.nav-grocery   .nav-item .nav-link{
+    font-size: 13px !important;
+    
+     }
+     .nav-grocery  .nav-item {
+        width: 14.2% !important;
+        /* margin-left: 40.9px; */
+        margin-left: 0px !important;
+    }
+    
+    .nav-grocery  .nav-item {
+        width: 13.8% !important;
+        /* margin-left: 40.9px; */
+        margin-left: 5px !important;
+        text-align: center;
+        cursor: pointer;
+    }}
+
+
+
+
+
 /********************Purchase-delivery************************/
 .Purchase-delivery  {
 direction: rtl;
@@ -3442,6 +3473,7 @@ width: 100% !important;
 .Purchase-delivery  form select {
 padding:6px !important;
 color: rgba(0, 0, 0, 0.4) !important;  
+margin-bottom:10px;
 }
 
 
@@ -3537,7 +3569,7 @@ cursor: pointer;
 }
 
 .Grocery-home-screens-Details .Quantity {
-    margin: 23px  0px!important;
+    margin: 15px  0px!important;
 }
 /*************Product order details*****************/
 
@@ -3547,6 +3579,11 @@ text-align: right;
 position: relative;
 margin-bottom: 40px;
 }
+
+
+
+ 
+
 
 
 .Product-order-details .Product-details{
@@ -3804,7 +3841,75 @@ margin-top: 25px;
 font-weight: bold;
 margin-right: 10px;
     }
+    onKivi
+ 
+ .Department-products .Distinctive-restaurants,.Order-now   .Distinctive-restaurants,.onKivi .Distinctive-restaurants{
+    display: flex;
+ }
+
+ .Department-products  .Distinctive-restaurants .restaurant-name ,.Order-now  .Distinctive-restaurants .restaurant-name,.onKivi .Distinctive-restaurants .restaurant-name{
+    flex: 1;
+ } 
+ .Department-products  .Distinctive-restaurants .icon-left,.Order-now  .Distinctive-restaurants .icon-left, .onKivi  .Distinctive-restaurants .icon-left {
+    flex: 1;
+    text-align: left;
+ }
+
+ .nav-grocery   .nav-item .nav-link{
+    font-size: 13px;
+    
+     }
+     .nav-grocery  .nav-item {
+        width:  auto;
+        /* margin-left: 40.9px; */
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    
+    .nav-grocery  .nav-item {
+        width:  auto;
+        /* margin-left: 40.9px; */
+        margin-left:5px;
+        text-align: center;
+        cursor: pointer;
+    }
    
 
+           
+                   .Grocery-home-screens-Details .Product-Details-images2  .Small-pictures-product       {
+    
+                    display: flex;  direction: rtl !important;
+                    text-align: right !important;
+                    margin-top: 10px;
+             
+                        }
+     
+.Grocery-home-screens-Details .Product-Details-images2 .Small-pictures-product  .picture  {
+      height:105px !important;
+width:123px !important;
+   border-radius: 16px;
+   border: 1px solid #F0F0F0;
+
+ margin-right: 10px;
 
  
+     }
+    .Grocery-home-screens-Details .Product-Details-images2 .Small-pictures-product .picture:hover {
+        border: 1px solid #F3EB39;
+        cursor: pointer;
+  
+      }
+      
+
+.Grocery-home-screens-Details .Product-Details-images2 .Small-pictures-product  .picture  img{
+width:100% !important;
+height: auto !important;
+}
+.Reviews .container h2 {
+    font-weight: bold !important;
+    margin-bottom: 40px
+      }
+    .Department-products.onKivi{
+        margin-bottom: 30px !important;
+    margin-top: 30px !important;
+    }

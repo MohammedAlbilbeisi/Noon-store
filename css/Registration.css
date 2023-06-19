@@ -4,24 +4,48 @@ body {
 }
 
 .main-section {
-    margin-top: 40px;
+    margin-top:25px;
 }
 
 .main-section .logo {
-    margin-bottom: 30px;
+    margin-bottom:0px;
 }
-
+.New-password .input-group-addon{
+top: 12px !important;
+}
+.do-have{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 0px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.do-have a{
+ color: #000000 ;
+ cursor: pointer;
+}
+button{
+    font-weight: bold;
+}
+.do-have a:hover{
+    color: #1606fa ;
+    }
 .form-group {
     direction: rtl;
 }
-
+.iti {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
 
 /*   .main-section .section{
         direction: rtl;
             }*/
 
 form .form-group {
-    margin: 16px 0px;
+   /* margin: 16px 0px;*/
+    margin: 0px;
 }
 
 #show_hide_password {
@@ -31,9 +55,14 @@ form .form-group {
 .input-group-addon {
     position: absolute;
     left: 20px;
-    top: 10px;
+    top:42px;
 }
-
+label{
+    margin: 0px  0px 5px 0px;
+    font-weight: bold;
+    display: block;
+    text-align: right;
+}
 .main-section .form-group {
     margin-bottom: 5px !important;
 }
@@ -41,7 +70,7 @@ form .form-group {
 .main-section .section h1 {
     direction: rtl !important;
     text-align: right !important;
-    margin-bottom: 30px !important;
+    margin-bottom:15px !important;
     font-weight: bold;
 }
 
@@ -54,6 +83,9 @@ form .form-group {
 @media only screen and (max-width: 600px) {
     .selected-flag {
         margin-top: 35px;
+    }
+    .main-section .section h1 {
+        text-align: center !important;
     }
 }
 
@@ -71,13 +103,14 @@ form .form-group {
     float: right;
     margin-right: 20px;
 }
+ 
 
 .fa-eye-slash {
     color: #F3EB39 !important;
 }
 
 #tel input {
-    width: 545px;
+    width: 100%;
 }
 
 button {
@@ -90,4 +123,13 @@ button {
 
 button:hover {
     background-color: #f5ea16 !important;
+}
+@media only screen and (max-width: 600px) {
+
+    .main-section .col-sm-6 .section img {
+        width: 54%;
+        margin: 15px auto;
+        display: block;
+     }
+
 }

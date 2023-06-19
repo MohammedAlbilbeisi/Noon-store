@@ -19,8 +19,7 @@
 
     <link rel="stylesheet" href="css/international-telephone-input.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.0/css/intlTelInput.css'>
-    <link rel="stylesheet" href="./style.css">
-
+ 
     <link rel="stylesheet" href="css/Registration.css">
 
 </head>
@@ -42,8 +41,7 @@
 
         <div class="container">
 
-
-            <div class="row">
+             <div class="row">
                 <div class="col-sm-6">
 
                     <div class="section" data-aos="fade-up" data-aos-duration="3000">
@@ -63,10 +61,13 @@
 
 
                             <div class="form-group">
+                                <label for="name">الاسم</label>
                                 <input type="text" class="form-control" id="name" placeholder=" الاسم" required>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder=" البريد الالكتروني" required>
+                                <label for="email">البريد الالكتروني</label>
+
+                                <input type="email" class="form-control" id="email" placeholder=" البريد الالكتروني" required>
                             </div>
 
 
@@ -75,8 +76,9 @@
 
 
                             <div id="tel" class="form-group ">
+                                <label for="phone"> رقم الموبايل  </label>
 
-                                <input type="tel" name="phone" class="form-control tel" placeholder="+970" inputmode="tel" value="" required>
+                                <input type="tel" id="phone"  name="phone" class="form-control tel" placeholder="+970" inputmode="tel" value="" required>
 
                             </div>
 
@@ -104,6 +106,7 @@
 
                             <div class="form-group">
                                 <div id="show_hide_password">
+                                    <label for="password">   كلمة المرور   </label>
 
                                     <input name="password" type="password" value="" class="input form-control" id="password" placeholder="كلمة المرور" required="true" aria-label="password" aria-describedby="basic-addon1" required/>
                                     <div class="input-group-addon">
@@ -118,8 +121,9 @@
 
                             <div class="form-group">
                                 <div id="show_hide_password">
+                                    <label for="password-confirmation">  تاكيد كلمة المرور    </label>
 
-                                    <input name="password" type="password" value="" class="input form-control" id="password" placeholder=" تاكيد كلمة المرور" required="true" aria-label="password" aria-describedby="basic-addon1" required/>
+                                    <input name="password" type="password" value="" class="input form-control" id="password-confirmation" placeholder=" تاكيد كلمة المرور" required="true" aria-label="password" aria-describedby="basic-addon1" required/>
                                     <div class="input-group-addon">
                                         <a href=""><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
                                     </div>
@@ -133,27 +137,28 @@
 
 
 
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked " checked>
+                                <label class="form-check-label" for="flexCheckChecked ">
+     تذكرني                            </label>
+                            </div>
+    
 
 
 
 
 
 
-
+                            <button type="submit"> التسجيل </button>
 
                         </form>
-                        <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked " checked>
-                            <label class="form-check-label" for="flexCheckChecked ">
- تذكرني                            </label>
-                        </div>
-
+                     
 
 
                     </div>
-                    <button>تسجيل </button>
+ <p class="do-have">هل لديك حساب بالفعل ؟ <a href=""> تسجيل الدخول</a></p>
 
-                </div>
+                 </div>
 
 
 
@@ -183,74 +188,7 @@
 
 
 
-
-    <!-- Start 
-
-    <div class="Contact-us" id="Contact-us">
-
-        <div class="container">
-
-
-            <div class="row">
-
-
-
-
-
-
-
-
-
-
-                <div class="col-md-6">
-                    <div class="images" data-aos="flip-left" data-aos-duration="2000">
-                        <img src="img/Contactus.svg" class="img-fluid" alt="">
-                    </div>
-
-                </div>
-
-
-
-                <div class="col-md-6">
-                    <div class="description" data-aos="fade-down" data-aos-duration="3000">
-
-                        <h1>
-
-                            تواصل معنا
-                        </h1>
-
-
-                        <form target="_blank" action="https://formspree.io/f/xqkojgqj" method="POST">
-
-                            <label for="fname"> :الاسم</label> <br>
-                            <input type="text" id="fname" name="fname" placeholder="الاسم" required> <br>
-
-                            <label for="email">:الايميل</label><br>
-                            <input type="email" id="email" name="email" placeholder="الايميل" required><br>
-
-                            <label for="message">:الرسالة</label><br>
-
-                            <textarea name="message" rows="5" cols="10" required>
-                         </textarea>
-                            <button type="submit" value="Send"> إرسال</button>
-
-
-                        </form>
-
-
-
-
-                    </div>
-
-                </div>
-
-
-
-            </div>
-        </div>
-    </div>
-    -->
-
+ 
 
 
 

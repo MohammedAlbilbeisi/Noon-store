@@ -19,7 +19,7 @@
 
     <link rel="stylesheet" href="css/international-telephone-input.css">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.0/css/intlTelInput.css'>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <link rel="stylesheet" href="css/Registration.css">
 
@@ -64,6 +64,7 @@
 
 
                             <div class="form-group">
+                                <label for="exampleInputEmail1">رقم الموبايل / البريد الالكتروني</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder=" رقم الموبايل / البريد الالكتروني" required>
                             </div>
 
@@ -95,6 +96,7 @@
 
                             <div class="form-group">
                                 <div id="show_hide_password">
+                                    <label for="password">   كلمة المرور    </label>
 
                                     <input name="password" type="password" value="" class="input form-control" id="password" placeholder="كلمة المرور" required="true" aria-label="password" aria-describedby="basic-addon1" required/>
                                     <div class="input-group-addon">
@@ -140,8 +142,16 @@
                             <a href="">اشترك الآن</a>
 
                         </p>
+<p>
 
-                        <p>
+
+    <img src="images/Whatsapp.svg" alt="">
+
+    <a href="#">تواصل معنا عبر الواتس اب</a>
+
+
+</p>
+                        <p class="ignore">
 
                             <a href=""> تجاهل</a>
 
@@ -269,6 +279,7 @@
             color: black;
             padding: 8px 0px;
             border: none;
+            font-weight: bold;
         }
         
         .Subscribe p {
@@ -277,14 +288,21 @@
         }
         
         .Subscribe a {
-            text-decoration: underline;
-            color: black;
+             color: black;
         }
         
         .Subscribe p:nth-child(2) a {
             margin-top: 30px;
-            text-decoration: none;
-        }
+          }
+
+          .ignore a{
+text-decoration: none !important;
+          }
+
+          .ignore a:hover{
+text-decoration: underline !important;
+          }
+
     </style>
 
 
