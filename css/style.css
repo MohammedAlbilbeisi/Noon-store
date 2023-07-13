@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
 * {
     font-family: 'Cairo', sans-serif;
 }
@@ -36,9 +37,7 @@ body {
     cursor: pointer;
 }
 
-
 /********************** nav **********************/
-
 nav {
     background-color: #FFFFFF;
     padding-top: 10px;
@@ -88,7 +87,7 @@ nav li a {
 
 nav li.active,
 nav li:hover {
-    border-bottom: 2px solid yellow !important;
+    border-bottom: 4px solid yellow !important;
 }
 
 nav li.active {
@@ -138,12 +137,8 @@ nav ul.Login li:nth-child(2) {
     height: 34px;
 }
 
-
 /********************** nav **********************/
-
-
 /*************ScrollBar*****************/
-
 ::-webkit-scrollbar {
     width: 12px;
 }
@@ -173,12 +168,8 @@ nav ul.Login li:nth-child(2) {
     height: 12px !important;
 }
 
-
 /*************ScrollBar*****************/
-
-
 /************ sections ******************/
-
 .sections {
     text-align: center;
     /*margin-top: 50px;*/
@@ -203,7 +194,7 @@ nav ul.Login li:nth-child(2) {
     box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.06);
     border-radius: 16px;
     transition: transform .9s ease;
-    height: 170px !important;
+    /*  height: 170px !important;*/
     width: 100%;
     overflow: hidden;
     margin-bottom: 20px !important;
@@ -255,12 +246,8 @@ nav ul.Login li:nth-child(2) {
     background-color: #F3EB39 !important;
 }
 
-
 /************ sections ******************/
-
-
 /***** Slider-Products *******/
-
 .Slider-Products h2 {
     direction: rtl;
     text-align: right;
@@ -270,9 +257,7 @@ nav ul.Login li:nth-child(2) {
     /*background-color: #F3EB39;*/
 }
 
-
 /******* slider Shop-now *****/
-
 .slider-Shop-now {
     margin-top: 20px;
 }
@@ -305,12 +290,8 @@ nav ul.Login li:nth-child(2) {
     backdrop-filter: blur(8.02667px) !important;
 }
 
-
 /******* slider Shop-now *****/
-
-
 /******* Noun-shows *****/
-
 .Noun-shows .carousel .thumb-wrapper {
     margin-top: 10px;
 }
@@ -347,29 +328,23 @@ nav ul.Login li:nth-child(2) {
     margin-bottom: 5px;
     text-align: right;
     margin-right: 30px;
- }
+}
 
- .Grocery-Deals  .carousel .item ul {
+.Grocery-Deals .carousel .item ul {
     margin-right: 8px !important;
- }
+}
 
- .Grocery-Deals   .star-rating {
-     padding-top: 0px !important;
- }
-
-
+.Grocery-Deals .star-rating {
+    padding-top: 0px !important;
+}
 
 .carousel .item ul li i {
     width: 3px;
     height: auto;
 }
 
-
 /******* Noun-shows *****/
-
-
 /******* footer *****/
-
 footer {
     direction: rtl;
     padding-top: 30px;
@@ -496,26 +471,26 @@ footer li {
     width: 222px !important;
 }
 
-
 /******* footer *****/
-
-
 /******* Media queries *****/
-
 @media (min-width: 1191px) {
     .Noun-shows .carousel-control-prev {
         margin-top: 220px;
         margin-left: 65px;
     }
+
     .carousel-caption {
         top: 39% !important;
     }
+
     .Slider-Products .carousel .item {
         margin-left: 0% !important;
     }
+
     .Noun-shows .carousel .item {
         margin-left: 1% !important;
     }
+
     .Noun-shows .carousel-item .row {
         margin-right: 0% !important;
     }
@@ -527,22 +502,27 @@ footer li {
         position: absolute;
         z-index: 99;
     }
+
     nav .navbar ul {
         background-color: yellow !important;
         position: absolute;
         z-index: 99;
         text-align: center;
     }
+
     nav .navbar ul li:hover {
         background-color: #ffff !important;
     }
+
     nav .navbar ul li a {
         color: #ffff;
     }
+
     footer .section {
         text-align: right;
         margin-left: 2px !important;
     }
+
     footer h5,
     footer .h5,
     footer li {
@@ -553,34 +533,36 @@ footer li {
 }
 
 @media (max-width: 798px) {
+    .Western-food .main-section {
+        margin: auto !important;
+        width: 78% !important;
+    }
 
-
-.Western-food .main-section{
-    margin: auto !important;
-    width: 78% !important;
-}
-
- 
-     .sections .section .overlay {
+    .sections .section .overlay {
         bottom: 0px;
     }
+
     nav .navbar ul {
         background-color: yellow !important;
         position: absolute;
         z-index: 99;
     }
+
     nav .navbar ul {
         background-color: yellow !important;
         position: absolute;
         z-index: 99;
         text-align: center;
     }
+
     nav .navbar ul li:hover {
         background-color: #ffff !important;
     }
+
     nav .navbar ul li a {
         color: #ffff;
     }
+
     .slider-Shop-now .carousel-caption h1 {
         font-size: 24px;
     }
@@ -591,51 +573,63 @@ footer li {
         margin-top: 50px;
         text-align: center;
     }
+
     footer .heading {
         text-align: right;
         margin-top: 20px;
         text-align: center;
     }
+
     .slider-Shop-now .carousel-caption h1 {
         font-size: 24px;
     }
+
     .Slider-Products .carousel .thumb-wrapper {
         margin: 20px 0px;
     }
+
     .Slider-Products {
         margin-bottom: 0px !important;
     }
+
     .carousel-control-prev,
     .carousel-control-next {
         background: #000000;
         margin: auto 34px;
         margin-top: 243px !important;
     }
+
     .Slider-Products h2 {
         font-size: 22px !important;
         margin-top: 37px;
         margin-bottom: 20px;
     }
+
     .sections h2 {
         font-size: 22px !important;
     }
+
     .carousel .item {
         margin-left: 0% !important;
     }
+
     #carouselExampleCaptions .carousel-control-prev,
     #carouselExampleCaptions .carousel-control-next {
         margin-top: 50px !important;
     }
+
     .carousel-caption {
         right: 15%;
         bottom: 20px;
         left: 15%;
         top: 50%;
     }
+
     footer .section {
         text-align: right;
         margin-left: 2px !important;
     }
+
     footer h5,
     footer .h5,
     footer li {
@@ -643,10 +637,12 @@ footer li {
         font-weight: bold;
         width: 222px !important;
     }
+
     footer .end-footer .copyright {
         /* text-align: right; */
         text-align: center;
     }
+
     footer .icons {
         text-align: center;
     }
@@ -656,28 +652,34 @@ footer li {
     .carousel-caption {
         top: 22%;
     }
+
     footer .heading {
         text-align: center !important;
         width: 100% !important;
     }
+
     footer .Intro-footer .col-md-3 {
         -ms-flex: 0 0 25%;
         flex: 0 0 62%;
         max-width: 100%;
         text-align: center;
     }
+
     footer .Intro-footer .col-md-6 {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
         margin: 0px auto !important;
     }
+
     footer .Intro-footer .col-md-3 {
         margin: 0px auto !important;
     }
+
     .carousel-caption {
         top: 8% !important;
     }
+
     nav ul.Login li {
         border-radius: 8px;
         padding: 5px 10px !important;
@@ -685,125 +687,158 @@ footer li {
         font-weight: bold;
         font-size: 15px;
     }
+
     nav .navbar ul {
         display: flex;
         flex-direction: column-reverse;
     }
 }
- 
+
 @media (max-width: 575px) {
+
     html,
     .slider-Shop-now,
     footer {
         overflow-x: hidden !important;
     }
+
     nav .navbar ul {
         width: 132px;
     }
+
     footer .middle-footer .section.categoriess {
         margin-right: 1px !important;
     }
+
     .carousel-caption button {
         margin-top: 1px;
         font-weight: bold;
         width: 164px;
         height: 43px;
     }
+
     .navbar-light .navbar-nav .nav-link {
         font-size: 13px;
     }
+
     .navbar-light .navbar-toggler {
         margin: auto;
     }
+
     nav ul {
         list-style: none;
         text-decoration: none;
         margin: 15px auto !important;
         margin-top: 0px !important;
     }
+
     nav .navbar ul {
         display: flex;
         flex-direction: column-reverse;
     }
+
     footer .heading {
         text-align: right;
         margin-top: 0px;
         margin-bottom: 20px;
         text-align: center;
     }
+
     .slider-Shop-now .carousel-caption button {
         margin-top: 10px;
         font-weight: bold;
         width: 164px;
         height: 43px;
     }
+
     .slider-Shop-now .carousel-caption h1 {
         font-size: 19px;
     }
+
     .sections .section {
-        width: 50%;
+        width: 80%;
         margin: auto;
     }
+
     .carousel-caption {
         right: 15%;
         bottom: 20px;
         left: 15%;
         top: 6% !important;
     }
+
     footer .communication-section {
         margin-top: 50px;
         /* text-align: center; */
         /* margin: 0px auto; */
         text-align: center !important;
     }
+
     footer .section {
         text-align: right;
         margin-left: 12px !important;
         margin-left: 6px !important;
     }
+
     footer .sectionss {
         margin-right: 7%;
     }
+
     footer h5,
     footer .h5,
     footer li {
-        font-size: 12px;
+        font-size: 12px !important;
         font-weight: bold;
         width: 222px !important;
     }
+
+    footer li {
+        font-size: 11px !important;
+        font-weight: bold;
+        width: 222px !important;
+    }
+
     footer .end-footer .copyright {
         /* text-align: right; */
         font-size: 14px;
         text-align: center;
     }
+
     footer .icons {
         text-align: center;
         padding-top: 5px;
         padding-bottom: 5px;
     }
+
     footer .middle-footer img {
         height: auto !important;
         width: 55.22px !important;
     }
+
     footer .section {
         padding: 0px;
     }
+
     .carousel-inner {
         position: relative;
         width: 100%;
         overflow: hidden;
         margin-bottom: 0px !important;
     }
+
     footer .middle-footer img {
         margin-right: 25px;
         margin-bottom: 22px;
     }
+
     .arrow-up img {
         width: 50px;
     }
+
     .carousel-caption {
         top: 0% !important;
     }
+
     nav ul.Login li {
         border-radius: 8px;
         padding: 5px 10px !important;
@@ -813,26 +848,18 @@ footer li {
     }
 }
 
-
- 
 @media (max-width:444px) {
-    .Western-food .main-section{
-        margin:auto !important;
+    .Western-food .main-section {
+        margin: auto !important;
         width: 100% !important;
     }
-    
-
 }
 
-
-
 /******* Media queries *****/
-
-
 /*******************Western food************************************/
-.Salads{
-     padding-bottom:50px;
- }
+.Salads {
+    padding-bottom: 50px;
+}
 
 .Western-food {
     direction: rtl;
@@ -844,98 +871,87 @@ footer li {
     color: #000000;
     font-weight: bold;
 }
-.Western-food .icon img{
-width: 20px;
-height: 20px;
+
+.Western-food .icon img {
+    width: 20px;
+    height: 20px;
 }
 
 .Western-food p {
-
-font-weight: 400;
-font-size: 14px;
-line-height: 19px;
-
-color: rgba(0, 0, 0, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .Western-food h3 {
+    font-size: 14px;
+    font-weight: bold;
+}
 
-     font-size: 14px;
-     font-weight: bold;
- 
-    }
-    
-    
-    
-
-.Western-food .title{
-display: flex;
+.Western-food .title {
+    display: flex;
 }
 
 .Western-food .title h2 {
-      flex: 3;
-     text-align: right;
-     font-weight: bold;
-     font-size:24px;
-      margin-bottom: 25px;
+    flex: 3;
+    text-align: right;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 25px;
     margin-top: 40px;
-
-    }
-
-
-    .Western-food .title h6 {
-         flex: 1;
-         margin-bottom: 25px;
-         margin-top: 40px;
-         }
-         
-     
- 
-         .Western-food .red{
-            color: #E15F5A;
- }
-
- .Western-food .yellow{
-color: #F3EB39;
- }
- .Western-food .green{
-    color:#27C153;
-
- }
- .Western-food .free-delivery{
-    color: #FFAF10;
- }
-.Western-food .main-section .text{
- display: flex;
- 
 }
+
+.Western-food .title h6 {
+    flex: 1;
+    margin-bottom: 25px;
+    margin-top: 40px;
+}
+
+.Western-food .red {
+    color: #E15F5A;
+}
+
+.Western-food .yellow {
+    color: #F3EB39;
+}
+
+.Western-food .green {
+    color: #27C153;
+}
+
+.Western-food .free-delivery {
+    color: #FFAF10;
+}
+
+.Western-food .main-section .text {
+    display: flex;
+}
+
 .Western-food .main-section .text .right {
     flex: 1.5;
-     text-align: right;
+    text-align: right;
     border-radius: 8px;
-    padding: 5px;   
-
+    padding: 5px;
 }
 
-.Western-food  .main-section .text .left {
- text-align: left;
-     flex: 1;
+.Western-food .main-section .text .left {
+    text-align: left;
+    flex: 1;
     border-radius: 8px;
-    padding: 5px;   
-
-
+    padding: 5px;
 }
- 
-.delivery-place{
+
+.delivery-place {
     text-align: right !important;
-    margin: 50px  0px 30px 0px ;
-        }
-        .delivery-place span{
-            color: rgba(0, 0, 0, 0.4);
-                }
+    margin: 50px 0px 30px 0px;
+}
 
-                .delivery-place span .red{
- margin-left: 10px;                    color: red;
+.delivery-place span {
+    color: rgba(0, 0, 0, 0.4);
+}
 
-                        }
-        
+.delivery-place span .red {
+    margin-left: 10px;
+    color: red;
+}

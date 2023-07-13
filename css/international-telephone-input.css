@@ -139,7 +139,8 @@
     width: 15px;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
     .flag {
         background-size: 5652px 15px;
     }
@@ -1438,14 +1439,15 @@
 .flag {
     height: 15px;
     box-shadow: 0 0 1px 0 #888;
-     background-image: url(../images/flags.png);
-    
+    background-image: url(../images/flags.png);
+
     background-repeat: no-repeat;
     background-color: #dbdbdb;
     background-position: 20px 0;
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+@media (-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
     .flag {
         background-image: url(../images/flags@2x.png);
     }
@@ -1457,14 +1459,15 @@
 
 
 input[type=tel] {
-    
-     /* padding: 6px 12px; */
-     text-align: left;
-     padding-left: 53px;
-     direction: ltr !important;
-   
+
+    /* padding: 6px 12px; */
+    text-align: left;
+    padding-left: 53px;
+    direction: ltr !important;
+
 }
-#tel{
+
+#tel {
 
     direction: ltr !important;
 

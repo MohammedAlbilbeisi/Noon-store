@@ -1,242 +1,105 @@
 <html lang="ar">
-
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Noun Palestine</title>
-
-    <!-- Start  plugins -->
-
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <!-- End  plugins -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
-
-
-    <link rel="stylesheet" href="css/international-telephone-input.css">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.0/css/intlTelInput.css'>
- 
-    <link rel="stylesheet" href="css/Registration.css">
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> Noun Palestine</title>
+<!-- Start  plugins -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- End  plugins -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+<link rel="stylesheet" href="css/international-telephone-input.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.0/css/intlTelInput.css'>
+<link rel="stylesheet" href="css/Registration.css">
 </head>
-
-<body>
-
-
-
-
-
-
-
-    <!-- Start  Our-services -->
-
-
-
-    <div class="main-section">
-        <div class="col-sm-12  logo"> <img src="images/logo.svg" class="img-fluid mx-auto d-block" alt=""></div>
-
-        <div class="container">
-
-             <div class="row">
-                <div class="col-sm-6">
-
-                    <div class="section" data-aos="fade-up" data-aos-duration="3000">
-                        <img src="images/Character.svg" class="img-fluid" alt="">
-
+    <body>
+        <!-- Start  Our-services -->
+        <div class="main-section">
+            <div class="col-sm-12  logo"> <img src="images/logo.svg" class="img-fluid mx-auto d-block" alt=""></div>
+            <div class="container">
+                 <div class="row">
+                    <div class="col-sm-6">
+                        <div class="section" data-aos="fade-up" data-aos-duration="3000">
+                            <img src="images/Character.svg" class="img-fluid" alt="">
+                        </div>
                     </div>
+                    <div class="col-sm-6">
+                        <div class="section" data-aos="fade-right" data-aos-duration="2000">
+                            <h1> التسجيل </h1>
+                            <form>
+                                <div class="form-group">
+                                    <label for="name">الاسم</label>
+                                    <input type="text" class="form-control" id="name" placeholder=" الاسم" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">البريد الالكتروني</label>
+                                    <input type="email" class="form-control" id="email" placeholder=" البريد الالكتروني" required>
+                                </div>
+                                <div id="tel" class="form-group ">
+                                    <label for="phone"> رقم الموبايل  </label>
+                                    <input type="tel" id="phone"  name="phone" class="form-control tel" placeholder="+970" inputmode="tel" value="" required>
+                                </div>
+                                <div class="form-group">
+                                    <div id="show_hide_password">
+                                        <label for="password">   كلمة المرور   </label>
+                                        <input name="password" type="password" value="" class="input form-control" id="password" placeholder="كلمة المرور" required="true" aria-label="password" aria-describedby="basic-addon1" required/>
+                                        <div class="input-group-addon">
+                                            <a href=""><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div id="show_hide_password">
+                                        <label for="password-confirmation">  تاكيد كلمة المرور    </label>
+                                        <input name="password" type="password" value="" class="input form-control" id="password-confirmation" placeholder=" تاكيد كلمة المرور" required="true" aria-label="password" aria-describedby="basic-addon1" required/>
+                                        <div class="input-group-addon">
+                                            <a href=""><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked " checked>
+                                    <label class="form-check-label" for="flexCheckChecked ">
+         تذكرني                            </label>
+                                </div>
+                                <button type="submit"> التسجيل </button>
+                            </form>
+                        </div>
+     <p class="do-have">هل لديك حساب بالفعل ؟ <a href=""> تسجيل الدخول</a></p>
+                     </div>
                 </div>
-
-                <div class="col-sm-6">
-
-                    <div class="section" data-aos="fade-right" data-aos-duration="2000">
-
-                        <h1> التسجيل </h1>
-
-                        <form>
-
-
-
-                            <div class="form-group">
-                                <label for="name">الاسم</label>
-                                <input type="text" class="form-control" id="name" placeholder=" الاسم" required>
-                            </div>
-                            <div class="form-group">
-                                <label for="email">البريد الالكتروني</label>
-
-                                <input type="email" class="form-control" id="email" placeholder=" البريد الالكتروني" required>
-                            </div>
-
-
-
-
-
-
-                            <div id="tel" class="form-group ">
-                                <label for="phone"> رقم الموبايل  </label>
-
-                                <input type="tel" id="phone"  name="phone" class="form-control tel" placeholder="+970" inputmode="tel" value="" required>
-
-                            </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                            <div class="form-group">
-                                <div id="show_hide_password">
-                                    <label for="password">   كلمة المرور   </label>
-
-                                    <input name="password" type="password" value="" class="input form-control" id="password" placeholder="كلمة المرور" required="true" aria-label="password" aria-describedby="basic-addon1" required/>
-                                    <div class="input-group-addon">
-                                        <a href=""><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
-                                    </div>
-
-
-
-
-                                </div>
-                            </div>
-
-                            <div class="form-group">
-                                <div id="show_hide_password">
-                                    <label for="password-confirmation">  تاكيد كلمة المرور    </label>
-
-                                    <input name="password" type="password" value="" class="input form-control" id="password-confirmation" placeholder=" تاكيد كلمة المرور" required="true" aria-label="password" aria-describedby="basic-addon1" required/>
-                                    <div class="input-group-addon">
-                                        <a href=""><i class="fa fa-eye-slash" aria-hidden="true"></i></a>
-                                    </div>
-
-
-
-
-                                </div>
-                            </div>
-
-
-
-
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked " checked>
-                                <label class="form-check-label" for="flexCheckChecked ">
-     تذكرني                            </label>
-                            </div>
-    
-
-
-
-
-
-
-                            <button type="submit"> التسجيل </button>
-
-                        </form>
-                     
-
-
-                    </div>
- <p class="do-have">هل لديك حساب بالفعل ؟ <a href=""> تسجيل الدخول</a></p>
-
-                 </div>
-
-
-
-
             </div>
-
-
         </div>
-
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
-
-    <!-- Start  script -->
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.0/js/intlTelInput.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/inputmask/4.0.8/jquery.inputmask.bundle.min.js'></script>
-    <script>
-        AOS.init();
-    </script>
-    <script src="./js/international-telephone-input.js"></script>
-
-
-    <!-- End  script -->
-
-    <script>
-        $(document).ready(function() {
-            $("#show_hide_password a").on('click', function(event) {
-                event.preventDefault();
-                if ($('#show_hide_password input').attr("type") == "text") {
-                    $('#show_hide_password input').attr('type', 'password');
-                    $('#show_hide_password i').addClass("fa-eye-slash");
-                    $('#show_hide_password i').removeClass("fa-eye");
-                } else if ($('#show_hide_password input').attr("type") == "password") {
-                    $('#show_hide_password input').attr('type', 'text');
-                    $('#show_hide_password i').removeClass("fa-eye-slash");
-                    $('#show_hide_password i').addClass("fa-eye");
-                }
-            });
+<!-- Start  script -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.0/js/intlTelInput.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/inputmask/4.0.8/jquery.inputmask.bundle.min.js'></script>
+<script>
+    AOS.init();
+</script>
+<script src="./js/international-telephone-input.js"></script>
+<!-- End  script -->
+<script>
+    $(document).ready(function() {
+        $("#show_hide_password a").on('click', function(event) {
+            event.preventDefault();
+            if ($('#show_hide_password input').attr("type") == "text") {
+                $('#show_hide_password input').attr('type', 'password');
+                $('#show_hide_password i').addClass("fa-eye-slash");
+                $('#show_hide_password i').removeClass("fa-eye");
+            } else if ($('#show_hide_password input').attr("type") == "password") {
+                $('#show_hide_password input').attr('type', 'text');
+                $('#show_hide_password i').removeClass("fa-eye-slash");
+                $('#show_hide_password i').addClass("fa-eye");
+            }
         });
-    </script>
-
-
-
-
-
-
-
-
-
-
-
+    });
+</script>
 </body>
-
 </html>
 <!-- BY DEV Mohammed Zeyad -->
